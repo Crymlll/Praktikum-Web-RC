@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Minggu 1</title>
+</head>
+<body>
+    <header id="top">
+        <hr>
+        <center><h1>Praktikum Minggu 1 Pemrograman Web - RC</h1></center>
+        <hr>
+        <h2>Macam - Macam Database</h2>
+        <img src="database.jpg" alt="profile" width="480">
+        <hr>
+    </header>
+    <navigation>
+        <ul>
+            <label><h3>Navigasi Dokumen</h3></label>
+            <li><a href="#mongodb">MongoDB</a></li>
+            <li><a href="#mysql">MySQL</a></li>
+            <li><a href="#form">Form Pengunjung</a></li>
+        </ul>
+        <hr>
+    </navigation>
+    <content>
+        <h1>Macam-Macam Database</h1>
+        <br>
+        <h2 id="mongodb">MongoDB</h2>
+        <center><img src="mongodb.png" alt="mongodb" width="240"></center>
+        <p>
+            MongoDB (dari "humongous") adalah sistem basis data berorentasi dokumen lintas platform. 
+            Diklasifikasikan sebagai basis data "NoSQL", 
+            MongoDB menghindari struktur basis data relasional tabel berbasis tradisional yang mendukung JSON 
+            seperti dokumen dengan skema dinamis (MongoDB menyebutnya sebagai format BSON), 
+            membuat integrasi data dalam beberapa jenis aplikasi lebih mudah dan lebih cepat. Dirilis di bawah Server Side Public License, 
+            MongoDB adalah perangkat lunak bebas dan sumber terbuka. 
+        </p>
+        <a href="https://id.wikipedia.org/wiki/MongoDB">READMORE</a>
+        
+        <h2 id="mysql">MySQL</h2>
+        <center><img src="mysql.png" alt="mysql" width="240"></center>
+        <p>
+            MySQL adalah sebuah perangkat lunak sistem manajemen basis data SQL (bahasa Inggris: database management system) 
+            atau DBMS yang multialur, multipengguna, dengan sekitar 6 juta instalasi di seluruh dunia. 
+            MySQL AB membuat MySQL tersedia sebagai perangkat lunak gratis di bawah lisensi GNU General Public License (GPL), 
+            tetapi mereka juga menjual di bawah lisensi komersial untuk kasus-kasus di mana penggunaannya tidak cocok dengan penggunaan GPL.
+        </p>
+        <a href="https://id.wikipedia.org/wiki/MySQL">READMORE</a>
+        
+        <h2 id="postgresql">PostgreSQL</h2>
+        <center><img src="postgresql.png" alt="postgresql" width="240"></center>
+        <p>
+            PostgreSQL adalah sebuah sistem basis data yang disebarluaskan secara bebas menurut Perjanjian lisensi BSD. 
+            Peranti lunak ini merupakan salah satu basis data yang paling banyak digunakan saat ini, 
+            selain MySQL dan Oracle. PostgreSQL menyediakan fitur yang berguna untuk replikasi basis data. 
+            Fitur-fitur yang disediakan PostgreSQL antara lain DB Mirror, PGPool, Slony, PGCluster, dan lain-lain.
+        </p>
+        <a href="https://id.wikipedia.org/wiki/PostgreSQL">READMORE</a>
+
+        <h2 id="mssqlserver">Microsoft SQL Server</h2>
+        <center><img src="mssqlserver.png" alt="mssqlserver" width="240"></center>
+        <p>
+            Microsoft SQL Server adalah sebuah sistem manajemen basis data relasional (RDBMS) produk Microsoft. 
+            Bahasa kueri utamanya adalah Transact-SQL yang merupakan implementasi dari SQL standar ANSI/ISO yang digunakan oleh Microsoft dan Sybase. 
+            Umumnya SQL Server digunakan di dunia bisnis yang memiliki basis data berskala kecil sampai dengan menengah, 
+            tetapi kemudian berkembang dengan digunakannya SQL Server pada basis data besar.
+        </p>
+        <a href="https://id.wikipedia.org/wiki/Microsoft_SQL_Server">READMORE</a>
+        <hr>
+
+        <h2>Form Pengunjung Website</h2>
+        <form method="GET" action="index.html" id="form">
+            <table>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td> : </td>
+                    <td><input type="text" name="nama"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td> : </td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td> : </td>
+                    <td><input type="tel" name="telp"></td>
+                </tr>
+                <tr>
+                    <td>Perihal</td>
+                    <td> : </td>
+                    <td>
+                        <select name="perihal" id="perihal">
+                            <option value="komplain">Komplain</option>
+                            <option value="Saran">Saran</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pesan</td>
+                    <td> : </td>
+                    <td><textarea rows="5" cols="40" placeholder="max 500 character" maxlength="500"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Penilaian Web</td>
+                    <td> : </td>
+                    <td>
+                        <input type="radio" name="rate" value="1">1
+                        <input type="radio" name="rate" value="2">2
+                        <input type="radio" name="rate" value="3">3
+                        <input type="radio" name="rate" value="4">4
+                        <input type="radio" name="rate" value="5">5
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button type="submit" name="submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+        <hr>
+    </content>
+    <footer>
+        <hr>
+        <br><br>
+        <a href="#top">Back To Top</a>
+        <center><p>Aulia Rahman Zulfi (119140110)</p></center>
+        <center><p>INSTITUT TEKNOLOGI SUMATERA</p></center>
+        <center><p>Copyright © 2021</p></center>
+    </footer>
+</body>
+</html>
