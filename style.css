@@ -1,0 +1,72 @@
+*{
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    background-image: url('https://wallpaperaccess.com/full/4742978.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head{
+    background-color: rgb(207, 206, 206);
+    height: auto;
+    width: 100%;
+}
+
+h1.text{
+    font-size: 20px;
+}
+
+img.logo{
+    padding: 0 60px;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(218, 149, 22);
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 7px;
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.page{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.mainPage{
+    padding: 10px;
+    background-color: rgba(197, 202, 197, 0.527);
+    height: auto;
+    width: 70%;
+    display: flex;
+}
+
+.sidePage{
+    background-color: rgb(207, 39, 72);
+    height: 200px;
+    width: 30%;
+    display: flex;
+}
+
