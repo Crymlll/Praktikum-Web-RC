@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 3</title>
+</head>
+<body>
+    <p class="theme">select theme : 
+        <select onchange="changeColor(value)">
+            <option value="white">white</option>
+            <option value="black">black</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+            <option value="red">red</option>
+        </select>
+    </p>
+
+    <h1 class="theme">This is my website</h1>
+    
+    <p class="theme">select the weather type today : 
+        <select onchange="changeWeather(value)">
+            <option value="sunny">sunny</option>
+            <option value="rain">rain</option>
+            <option value="cloudy">cloudy</option>
+            <option value="stormy">stormy</option>
+            <option value="tornadoes">tornadoes</option>
+            <option value="fog">fog</option>
+            <option value="snow">snow</option>
+        </select>
+    </p>
+    <p id="cuaca" class="theme">Cuaca diluar lagi bagus loh!!! langsung aja jalan-jalan</p>
+
+    <p class="theme">Input Number : <input id="angka" type="number"><button onclick="factorial()">Get Factorial</button></p> 
+    <p id="factorial" class="theme"></p>
+
+    <script src="index.js"></script>
+</body>
+</html>
